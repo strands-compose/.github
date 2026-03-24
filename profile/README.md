@@ -1,9 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/strands-compose/sdk-python/main/docs/img/logo.png" width="180" alt="strands-compose">
+  <img src="../img/strands-compose.png" width="100%" alt="strands-compose">
 
-  # Strands Compose
-
-  **Build AI agent systems — not boilerplate**
+  --- 
+  **Declarative multi-agent orchestration for [strands-agents](https://github.com/strands-agents/sdk-python) — wire entire agent systems with YAML**
 
   <p>
     <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python 3.11+"></a>
@@ -15,8 +14,6 @@
 
 > [!IMPORTANT]
 > Community project — not affiliated with AWS or the strands-agents team.
-
----
 
 ## What is this?
 
