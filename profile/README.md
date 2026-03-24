@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../img/strands-compose.png" width="100%" alt="strands-compose">
+  <img src="../img/strands-compose.png" width="50%" alt="strands-compose">
 
   --- 
   **Declarative multi-agent orchestration for [strands-agents](https://github.com/strands-agents/sdk-python) — wire entire agent systems with YAML**
@@ -51,34 +51,12 @@ orchestrations:
 entry: team
 ```
 
-```python
-from strands_compose import load
-
-result = load("config.yaml").entry("Write a report on quantum computing.")
-print(result)
-```
-
-Three agents, full orchestration, shared model — **zero plumbing code**.
-
----
-
 ## Repositories
 
-### 🧱 Core package — [`sdk-python`](https://github.com/strands-compose/sdk-python)
+### [`sdk-python`](https://github.com/strands-compose/sdk-python) · [PyPI](https://pypi.org/project/strands-compose/) · [Examples](https://github.com/strands-compose/sdk-python/tree/main/examples)
 
 The heart of the organization. Everything else builds on top of it.
 
-| | |
-|---|---|
-| **YAML-first config** | Models, agents, tools, hooks, MCP, orchestrations — one file |
-| **YAML superpowers** | Variables (`${VAR:-default}`), anchors, `x-` scratch pads, multi-file merge |
-| **Multi-model** | Bedrock, OpenAI, Ollama, Gemini — swap with one line |
-| **Orchestration modes** | Delegate, Swarm, Graph — arbitrarily nestable |
-| **MCP lifecycle** | Local servers, remote HTTP, stdio — startup, polling, graceful shutdown |
-| **Session persistence** | File, S3, or Bedrock AgentCore Memory |
-| **Event streaming** | Unified async queue — tokens, tool calls, handoffs, completions |
-
-→ **[View repo](https://github.com/strands-compose/sdk-python)** · [PyPI](https://pypi.org/project/strands-compose/) · [Examples](https://github.com/strands-compose/sdk-python/tree/main/examples)
 
 ---
 
@@ -88,7 +66,9 @@ The heart of the organization. Everything else builds on top of it.
 
 The same `config.yaml` you develop with locally goes straight to production on **AWS Bedrock AgentCore** — no refactoring, no new abstractions. The `bedrock-agentcore` package takes care of packaging and deploying your entire agent system: models, tools, MCP servers, orchestration topology — all of it. One CLI command and your agents are running on fully managed AWS infrastructure with auto-scaling, high availability, and lifecycle management handled for you. Build locally with strands-compose, ship globally with AgentCore.
 
-<img src="../img/bedrock-agentcore.png" width="100%" alt="bedrock-agentcore preview">
+<div align="center">
+  <img src="../img/bedrock-agentcore.png" width="70%" alt="bedrock-agentcore preview">
+</div>
 
 ---
 
@@ -96,8 +76,19 @@ The same `config.yaml` you develop with locally goes straight to production on *
 
 A ready-to-use chat frontend that connects to a **strands-compose server**. Point it at your server URL, and get a streaming chat panel with a live **Agent Flow graph** — watch every reasoning step, delegation, and agent completion render in real time as your system runs.
 
-<img src="../img/chat-ui.png" width="100%" alt="chat-ui preview">
+<div align="center">
+  <img src="../img/chat-ui.png" width="70%" alt="chat-ui preview">
+</div>
 
 ---
 
-> Want to stay in the loop? **Watch this org** or ⭐ [sdk-python](https://github.com/strands-compose/sdk-python) for updates.
+## 🤝 Get Involved
+
+**This project is built in the open — everyone is welcome.**
+
+Whether you're fixing a bug, adding a new provider, improving docs, or just kicking the tyres — contributions of any size are appreciated. Come join the effort.
+
+- ⭐ **Star [sdk-python](https://github.com/strands-compose/sdk-python)** to show support and help others discover the project
+- 🐛 **Open an issue** if something doesn't work or you have a feature idea
+- 🔀 **Submit a PR** — from a typo fix to a full new feature, all contributions are welcome
+- 👀 **Watch this org** to follow new repos and releases as they land
