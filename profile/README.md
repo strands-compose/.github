@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/strands-compose.png" width="50%" alt="strands-compose">
+  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/strands-compose.png" width="500" alt="strands-compose">
 
   --- 
   **Declarative multi-agent orchestration for [strands-agents](https://github.com/strands-agents/sdk-python) — wire entire agent systems with YAML**
@@ -64,10 +64,10 @@ The heart of the organization. Everything else builds on top of it.
 
 ### 🚀 `bedrock-agentcore`
 
-The same `config.yaml` you develop with locally goes straight to production on **AWS Bedrock AgentCore** — no refactoring, no new abstractions. The `bedrock-agentcore` package takes care of packaging and deploying your entire agent system: models, tools, MCP servers, orchestration topology — all of it. One CLI command and your agents are running on fully managed AWS infrastructure with auto-scaling, high availability, and lifecycle management handled for you. Build locally with strands-compose, ship globally with AgentCore.
+Your `config.yaml` goes straight to production — no refactoring, no new abstractions. Dseploy your entire agent system to **AWS Bedrock AgentCore** with fully managed infrastructure, auto-scaling, and zero ops.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/bedrock-agentcore.png" width="70%" alt="bedrock-agentcore preview">
+  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/bedrock-agentcore.png" width="500" alt="bedrock-agentcore preview">
 </div>
 
 ---
@@ -77,7 +77,7 @@ The same `config.yaml` you develop with locally goes straight to production on *
 A ready-to-use chat frontend that connects to a **strands-compose server**. Point it at your server URL, and get a streaming chat panel with a live **Agent Flow graph** — watch every reasoning step, delegation, and agent completion render in real time as your system runs.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/chat-ui.png" width="70%" alt="chat-ui preview">
+  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/chat-ui.png" width="500" alt="chat-ui preview">
 </div>
 
 ---
