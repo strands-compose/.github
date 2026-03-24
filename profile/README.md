@@ -91,7 +91,7 @@ The heart of the organization. Everything else builds on top of it.
 
 The same `config.yaml` you develop with locally goes straight to production on **AWS Bedrock AgentCore** — no refactoring, no new abstractions. The `bedrock-agentcore` package takes care of packaging and deploying your entire agent system: models, tools, MCP servers, orchestration topology — all of it. One CLI command and your agents are running on fully managed AWS infrastructure with auto-scaling, high availability, and lifecycle management handled for you. Build locally with strands-compose, ship globally with AgentCore.
 
-<img src="img/bedrock-agentcore.png" width="100%" alt="bedrock-agentcore preview">
+<img src="../img/bedrock-agentcore.png" width="100%" alt="bedrock-agentcore preview">
 
 ---
 
@@ -99,7 +99,7 @@ The same `config.yaml` you develop with locally goes straight to production on *
 
 A ready-to-use chat frontend that connects to a **strands-compose server**. Point it at your server URL, and get a streaming chat panel with a live **Agent Flow graph** — watch every reasoning step, delegation, and agent completion render in real time as your system runs.
 
-<img src="img/chat-ui.png" width="100%" alt="chat-ui preview">
+<img src="../img/chat-ui.png" width="100%" alt="chat-ui preview">
 
 ---
 
