@@ -30,17 +30,8 @@ The heart of the organization. Everything else builds on top of it.
 ### [`bedrock-agentcore`](https://github.com/strands-compose/bedrock-agentcore) · [PyPI](https://pypi.org/project/strands-compose-agentcore/) · [Examples](https://github.com/strands-compose/bedrock-agentcore/tree/main/examples)
 Deploy your agent system to [AWS Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/) with fully managed infrastructure, auto-scaling, and zero ops.
 
----
-
-## Coming Soon
-
-### 💬 `chat-ui`
-
-A ready-to-use chat frontend that connects to a **strands-compose server**. Point it at your server URL, and get a streaming chat panel with a live **Agent Flow graph** — watch every reasoning step, delegation, and agent completion render in real time as your system runs.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/chat-ui.png" width="500" alt="chat-ui preview">
-</div>
+### [`chat`](https://github.com/strands-compose/chat) · [PyPI](https://pypi.org/project/strands-compose-chat/) · [Examples](https://github.com/strands-compose/chat/tree/main/examples)
+A ready-to-run chat web application for agents built with strands-compose
 
 ---
 
