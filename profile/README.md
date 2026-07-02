@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/strands-compose.png" width="500" alt="strands-compose">
+  <img src="https://raw.githubusercontent.com/strands-compose/.github/main/img/strands-compose.png" width="400" alt="strands-compose">
 
   --- 
   **Declarative multi-agent orchestration for [strands-agents](https://github.com/strands-agents/sdk-python) — wire entire agent systems with YAML**
